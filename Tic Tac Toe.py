@@ -59,9 +59,9 @@ def display_board_pos():
 # In[2]:
 
 
-test_board = ['#','X','O','X','O','X','O','X','O','X']
-display_board(test_board)
-display_board_pos()
+#test_board = ['#','X','O','X','O','X','O','X','O','X']
+#display_board(test_board)
+#display_board_pos()
 
 
 # **Step 2: Write a function that can take in a player input and assign their marker as 'X' or 'O'. Think about using *while* loops to continually ask until you get a correct answer.**
@@ -97,7 +97,7 @@ def player_input():
 # In[4]:
 
 
-player_input()
+#player_input()
 
 
 # **Step 3: Write a function that takes in the board list object, a marker ('X' or 'O'), and a desired position (number 1-9) and assigns it to the board.**
@@ -114,8 +114,8 @@ def place_marker(board, marker, position):
 # In[6]:
 
 
-place_marker(test_board,'$',8)
-display_board(test_board)
+#place_marker(test_board,'$',8)
+#display_board(test_board)
 
 
 # **Step 4: Write a function that takes in a board and a mark (X or O) and then checks to see if that mark has won. **
@@ -137,7 +137,7 @@ def win_check(board, mark):
 # In[8]:
 
 
-win_check(test_board,'X')
+#win_check(test_board,'X')
 
 
 # **Step 5: Write a function that uses the random module to randomly decide which player goes first. You may want to lookup random.randint() Return a string of which player went first.**
@@ -227,7 +227,7 @@ def replay():
 # In[14]:
 
 
-pass
+#pass
 
 
 # **Step 10: Here comes the hard part! Use while loops and the functions you've made to run the game!**
